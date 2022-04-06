@@ -254,5 +254,22 @@
     "golfer4": "Cory Conners",
     "g4flag": "🇺🇸",
     "g4points": 0
+  },
+  {
+    "id": "015",
+    "name": "Dave Collins",
+    "initials": "DC",
+    "golfer1": "Jon Rahm",
+    "g1flag": "🇪🇸",
+    "g1points": 0,
+    "golfer2": "Cameron Smith",
+    "g2flag": "🇦🇺",
+    "g2points": 0,
+    "golfer3": "Justin Thomas",
+    "g3flag": "🇺🇸",
+    "g3points": 0,
+    "golfer4": "Paul Casey",
+    "g4flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "g4points": 0
   }
 ]
