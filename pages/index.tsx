@@ -14,13 +14,18 @@ const Home: NextPage = () => {
         <div className="mb-10 flex justify-center text-4xl">
           <h1>Fantasy Masters 2022</h1>
         </div>
-        {masters.map((master, key) => (
-          <a href={'#' + master.id}>
-            <button className="m-1 mb-3 rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
-              {master.initials}
-            </button>
-          </a>
-        ))}
+        <div className="block text-center	">
+          <p className="my-4 text-xs">
+            Click your initial to scroll down to your score
+          </p>
+          {masters.map((master, key) => (
+            <a href={'#' + master.id}>
+              <button className="m-1 mb-3  rounded-full bg-blue-500 py-2 px-4 text-xs font-bold text-white hover:bg-blue-700">
+                {master.initials}
+              </button>
+            </a>
+          ))}
+        </div>
         <main className="mt-2 inline-flex max-w-full flex-wrap justify-center">
           {masters.map((master, key) => (
             <table
