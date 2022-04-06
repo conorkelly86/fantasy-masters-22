@@ -1,6 +1,8 @@
 [
   {
+    "id": "001",
     "name": "TJ Cox",
+    "initials": "TJ",
     "golfer1": "Shane Lowry",
     "g1flag": "🇮🇪",
     "g1points": 0,
@@ -16,7 +18,9 @@
   },
 
   {
+    "id": "002",
     "name": "Dave Carr",
+    "initials": "DC",
     "golfer1": "Jon Rahm",
     "g1flag": "🇪🇸",
     "g1points": 0,
@@ -31,7 +35,26 @@
     "g4points": 0
   },
   {
+    "id": "003",
+    "name": "Conor Kelly",
+    "initials": "CK",
+    "golfer1": "Justin Thomas",
+    "g1flag": "🇺🇸",
+    "g1points": 0,
+    "golfer2": "Tiger Woods",
+    "g2flag": "🇺🇸",
+    "g2points": 0,
+    "golfer3": "Hideki Matsuyama",
+    "g3flag": "🇰🇷",
+    "g3points": 0,
+    "golfer4": "Jon Rahm",
+    "g4flag": "🇪🇸",
+    "g4points": 0
+  },
+  {
+    "id": "004",
     "name": "Shane O'Hara",
+    "initials": "SOH",
     "golfer1": "Viktor Hovland",
     "g1flag": "🇳🇴",
     "g1points": 0,
@@ -46,7 +69,9 @@
     "g4points": 0
   },
   {
+    "id": "005",
     "name": "Michael 4 Fingers",
+    "initials": "MM🖖",
     "golfer1": "Viktor Hovland",
     "g1flag": "🇳🇴",
     "g1points": 0,
@@ -61,7 +86,9 @@
     "g4points": 0
   },
   {
+    "id": "006",
     "name": "Derek Greally",
+    "initials": "DG",
     "golfer1": "Brooks Koepka",
     "g1flag": "🇺🇸",
     "g1points": 0,
@@ -76,7 +103,9 @@
     "g4points": 0
   },
   {
+    "id": "007",
     "name": "Shaun The Sheep",
+    "initials": "SS🐑",
     "golfer1": "Xander Schaufelle",
     "g1flag": "🇺🇸",
     "g1points": 0,
@@ -91,7 +120,9 @@
     "g4points": 0
   },
   {
+    "id": "008",
     "name": "Jack Sheil",
+    "initials": "JS",
     "golfer1": "Brooks Koepka",
     "g1flag": "🇺🇸",
     "g1points": 0,
@@ -106,7 +137,9 @@
     "g4points": 0
   },
   {
+    "id": "009",
     "name": "Anthony Davitt",
+    "initials": "AD",
     "golfer1": "Viktor Hovland",
     "g1flag": "🇳🇴",
     "g1points": 0,
@@ -121,7 +154,9 @@
     "g4points": 0
   },
   {
-    "name": "",
+    "id": "010",
+    "name": "Ronnie Sweeney",
+    "initials": "RS",
     "golfer1": "Xander Schaufelle",
     "g1flag": "🇺🇸",
     "g1points": 0,
@@ -133,6 +168,23 @@
     "g3points": 0,
     "golfer4": "Will Zalatoris",
     "g4flag": "🇺🇸",
+    "g4points": 0
+  },
+  {
+    "id": "011",
+    "name": "Conor Beatty",
+    "initials": "CB",
+    "golfer1": "Brooks Koepka",
+    "g1flag": "🇺🇸",
+    "g1points": 0,
+    "golfer2": "Jordan Spieth",
+    "g2flag": "🇺🇸",
+    "g2points": 0,
+    "golfer3": "Cameron Smith",
+    "g3flag": "🇦🇺",
+    "g3points": 0,
+    "golfer4": "Thomas Pieters",
+    "g4flag": "🇧🇪",
     "g4points": 0
   }
 ]
