@@ -2,9 +2,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Footer } from '../components/Footer'
-import masters from '../data/data.json'
+import masters from '../data/monkeys.json'
 
-const Home: NextPage = () => {
+const Monkeys: NextPage = () => {
   return (
     <div className="h-full bg-blue-100">
       <div className="mx-15% pt-10">
@@ -48,8 +48,8 @@ const Home: NextPage = () => {
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
                     {master.golfer1}
                   </th>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
-                    {master.g1flag}
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g1odds}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g1points}
@@ -59,8 +59,8 @@ const Home: NextPage = () => {
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
                     {master.golfer2}
                   </th>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
-                    {master.g2flag}
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g2odds}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g2points}
@@ -70,8 +70,8 @@ const Home: NextPage = () => {
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
                     {master.golfer3}
                   </th>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
-                    {master.g3flag}
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g3odds}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g3points}
@@ -81,11 +81,22 @@ const Home: NextPage = () => {
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs ">
                     {master.golfer4}
                   </th>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
-                    {master.g4flag}
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g4odds}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g4points}
+                  </td>
+                </tr>
+                <tr>
+                  <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs ">
+                    {master.golfer5}
+                  </th>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g5odds}
+                  </td>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                    {master.g5points}
                   </td>
                 </tr>
               </tbody>
@@ -101,7 +112,8 @@ const Home: NextPage = () => {
                     {master.g1points +
                       master.g2points +
                       master.g3points +
-                      master.g4points}
+                      master.g4points +
+                      master.g5points}
                   </th>
                 </tr>
               </tfoot>
@@ -116,4 +128,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Monkeys

@@ -186,5 +186,22 @@
     "golfer4": "Thomas Pieters",
     "g4flag": "🇧🇪",
     "g4points": 0
+  },
+  {
+    "id": "012",
+    "name": "Tommy O'Keeffe",
+    "initials": "TOK",
+    "golfer1": "Cameron Smith",
+    "g1flag": "🇦🇺",
+    "g1points": 0,
+    "golfer2": "Brooks Koepka",
+    "g2flag": "🇺🇸",
+    "g2points": 0,
+    "golfer3": "Viktor Hovland",
+    "g3flag": "🇳🇴",
+    "g3points": 0,
+    "golfer4": "Corey Conners",
+    "g4flag": "🇺🇸",
+    "g4points": 0
   }
 ]
