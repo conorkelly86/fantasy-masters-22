@@ -7,12 +7,12 @@ import masters from '../data/data.json'
 const Home: NextPage = () => {
   return (
     <div className="h-full bg-blue-100">
-      <div className="mx-15% pt-10">
+      <div className="pt-50 mx-15%">
         <Head>
           <title>Masters 2022</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div className="mb-10 flex justify-center text-4xl">
+        <div className="mb-50 flex justify-center text-4xl">
           <h1>Fantasy Masters 2022</h1>
         </div>
         <div className="block text-center	">
@@ -35,12 +35,17 @@ const Home: NextPage = () => {
             >
               <thead className="thead-light ">
                 <tr>
-                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-100 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     {master.name}
                   </th>
+                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase"></th>
 
-                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-100 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase"></th>
-                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-100 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase"></th>
+                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                    Pos
+                  </th>
+                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                    Pts
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -50,6 +55,9 @@ const Home: NextPage = () => {
                   </th>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g1flag}
+                  </td>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
+                    {master.g1position === 50 ? 'CUT' : master.g1position}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g1points}
@@ -62,6 +70,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g2flag}
                   </td>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
+                    {master.g2position === 50 ? 'CUT' : master.g2position}
+                  </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g2points}
                   </td>
@@ -72,6 +83,9 @@ const Home: NextPage = () => {
                   </th>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g3flag}
+                  </td>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
+                    {master.g3position === 50 ? 'CUT' : master.g3position}
                   </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g3points}
@@ -84,6 +98,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g4flag}
                   </td>
+                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
+                    {master.g4position === 50 ? 'CUT' : master.g4position}
+                  </td>
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g4points}
                   </td>
@@ -92,12 +109,18 @@ const Home: NextPage = () => {
 
               <tfoot className="thead-light ">
                 <tr>
-                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-100 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     Total
                   </th>
 
-                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-100 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase"></th>
-                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-100 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                  <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase"></th>
+                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                    {master.g1position +
+                      master.g2position +
+                      master.g3position +
+                      master.g4position}
+                  </th>
+                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     {master.g1points +
                       master.g2points +
                       master.g3points +
