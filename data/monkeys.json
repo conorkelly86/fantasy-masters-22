@@ -82,7 +82,7 @@
     "golfer5": "Jason Kokrak",
     "g5odds": "90/1",
     "g5points": 2,
-    "cutPenalty": 3
+    "cutPenalty": 6
   },
   {
     "id": "005",
@@ -117,7 +117,7 @@
     "g2points": 2,
     "golfer3": "Will Zalatoris",
     "g3odds": "33/1",
-    "g3points": 1,
+    "g3points": -1,
     "golfer4": "Marc Leishman",
     "g4odds": "66/1",
     "g4points": 4,
