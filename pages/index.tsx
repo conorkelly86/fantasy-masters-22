@@ -43,9 +43,9 @@ const Home: NextPage = () => {
                   <th className="bg-blueGray-50 text-blueGray-500 border-blueGray-500 whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     Pos
                   </th>
-                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                  {/* <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     Pts
-                  </th>
+                  </th> */}
                 </tr>
               </thead>
               <tbody>
@@ -59,9 +59,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g1position === 50 ? 'CUT' : master.g1position}
                   </td>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                  {/* <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g1points}
-                  </td>
+                  </td> */}
                 </tr>
                 <tr>
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
@@ -73,9 +73,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g2position === 50 ? 'CUT' : master.g2position}
                   </td>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                  {/* <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g2points}
-                  </td>
+                  </td> */}
                 </tr>
                 <tr>
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
@@ -87,9 +87,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g3position === 50 ? 'CUT' : master.g3position}
                   </td>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                  {/* <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g3points}
-                  </td>
+                  </td> */}
                 </tr>
                 <tr>
                   <th className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs ">
@@ -101,9 +101,9 @@ const Home: NextPage = () => {
                   <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-lg ">
                     {master.g4position === 50 ? 'CUT' : master.g4position}
                   </td>
-                  <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
+                  {/* <td className="whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 align-middle text-xs ">
                     {master.g4points}
-                  </td>
+                  </td> */}
                 </tr>
               </tbody>
 
@@ -120,12 +120,12 @@ const Home: NextPage = () => {
                       master.g3position +
                       master.g4position}
                   </th>
-                  <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
+                  {/* <th className="bg-blueGray-50 text-blueGray-700 border-blueGray-500 min-w-140-px whitespace-nowrap border border-l-0 border-r-0 border-solid px-6 py-3 text-left align-middle text-xs font-semibold uppercase">
                     {master.g1points +
                       master.g2points +
                       master.g3points +
                       master.g4points}
-                  </th>
+                  </th> */}
                 </tr>
               </tfoot>
             </table>
